@@ -15,9 +15,11 @@ public class Main
     System.out.println("Running FIFO Simulation");
     s.simulation(n, "FIFO");
     System.out.print("\n");
+    
     System.out.println("Running SJF Simulation");
     s.simulation(n, "SJF");
     System.out.print("\n");
+    
     System.out.println("Running SRT Simulation");
     s.simulation(n, "SRT");
     System.out.print("\n");
